@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section{
+	padding: 50px 0px;
+}
+header{
+	background-image: url('img/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+.second-part{
+padding: 100px;
+}
+.second-content span{
+	background: #fff;
+    height: 1px;
+    width: 20px;
+    display: inline-block;
+}
+.phone-num{
+	padding: 20px 40px;
+    display: inline-block;
+    background-color: rgba(52, 53, 51, 0.75);
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    color: white;
+}
+.second-content h1{
+width: 55%;
+    text-transform: capitalize;	
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 15px 0px;
+}
+.btn-box{
+margin: 15px 0px;
+}
+.btn-second{
+	color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 10px 12px;
+    transition: .4s ease;
+}
+.btn-second:hover{
+	border-radius: 5px 8px;
+	color: orange;
+}
+.second-section p{
+	font-size: 14px;
+}
+.second-section span{
+	background: black;
+    height: 1px;
+    width: 20px;
+    display: inline-block;
+}
+
+.parent{
+	position: relative;
+}
+.img-fluid-car {
+    max-width: 175%;
+    height: auto;
+}
+.child-one{
+position: absolute;
+    top: 37%;
+    left: -75px;
+}
+.child-two{
+position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 30%;
+}
+.car-section{
+	background: black;
+	color: white;
+}
+.car-section h2{
+    margin: 3% 0px;
+    font-weight: 600;
+}
+.car-section span{
+background: white;
+    height: 2px;
+    width: 20%;
+    display: inline-block;
+}
+
+.btn-car{
+    color: white;
+    border: 2px solid white;
+    text-transform: capitalize;
+}
+footer{
+    background: #ff0000c9;
+}
+footer h1{
+    text-align: center;
+    padding: 2.5%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0px; 	
+}
+@media (min-width:0) and (max-width:575px){
+	.second-content p {
+    width: 25%;
+    text-transform: capitalize;
+    font-size: 13px;
+    display: inline;
+
+
+}
+.second-content h1 {
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 15px 0px;
+    line-height: 1;
+    padding: 25px 0px;
+}
+
+
+}
